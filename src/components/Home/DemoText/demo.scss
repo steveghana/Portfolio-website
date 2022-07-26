@@ -12,7 +12,7 @@ h4 {
   padding: 1rem 3rem;
 
   .home_first_section {
-    margin-top: 5rem;
+    // margin-top: 5rem;
     min-height: 100vh;
     display: flex;
     img {
@@ -109,12 +109,12 @@ h4 {
   .hook_container {
     position: relative;
     height: 100vh;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
   .home_second_section {
     display: flex;
     height: 100%;
-    margin-top: 6rem;
+    margin-top: 4rem;
     position: relative;
     flex-direction: column;
     cursor: pointer;
@@ -152,7 +152,7 @@ h4 {
   .home_second_section {
     display: flex;
     height: 100%;
-    margin-top: 6rem;
+    margin-top: 4rem;
     position: relative;
     flex-direction: column;
     .home_question_hook {

@@ -5,11 +5,11 @@ import { Elastic, Power1, Power4, Power3 } from "gsap/all";
 import gsap from "gsap";
 import imagesLoaded from "imagesloaded";
 import charming from "charming";
-import IMg1 from "./img/pexels-cottonbro-7232039-min.jpg";
-import IMg2 from "./img/pexels-melvin-buezo-2529147.jpg";
-import IMg3 from "./img/pexels-alesia-kozik-6770845-min.jpg";
-import IMg4 from "./img/pexels-karolina-grabowska-5412432-min.jpg";
-import IMg6 from "./img/pexels-karolina-grabowska-6214835-min.jpg";
+import IMg1 from "./img/pexels-cottonbro-7232039-min-min.jpg";
+import IMg2 from "./img/pexels-melvin-buezo-2529147-min.jpg";
+import IMg3 from "./img/pexels-alesia-kozik-6770845-min-min.jpg";
+import IMg4 from "./img/pexels-karolina-grabowska-5412432-min-min.jpg";
+import IMg6 from "./img/pexels-karolina-grabowska-6214835-min-min.jpg";
 import { Tweene } from "./Utility";
 import "./allP.scss";
 function Allprojects() {

@@ -344,23 +344,23 @@
   }
 }
 
-    @media (max-width: 400px) {
-      .recentp_wrapper {
-        .recentp_box {
-          width: 100% !important;
-          transform: translateY(-14%);
-          height: auto;
-          margin: 0.5rem .5rem !important;
-          .recentp_description {
-            transform: translateY(-10px) !important;
-            padding: 0.5rem !important;
-          }
-          .recentp_text {
-            font-size: 12px;
-            h2 {
-              font-size: 2rem !important;
-            }
-          }
+@media (max-width: 400px) {
+  .recentp_wrapper {
+    .recentp_box {
+      width: 100% !important;
+      transform: translateY(-14%);
+      height: auto;
+      margin: 0.5rem 0.5rem !important;
+      .recentp_description {
+        transform: translateY(-10px) !important;
+        padding: 0.5rem !important;
+      }
+      .recentp_text {
+        font-size: 12px;
+        h2 {
+          font-size: 2rem !important;
         }
       }
     }
+  }
+}

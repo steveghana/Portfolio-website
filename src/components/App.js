@@ -38,7 +38,13 @@ function App() {
   return (
     <Animationcontext.Provider value={{ setshowHomeIcon, hook_cursor }}>
       <div className="app">
-        <svg className="cursor" width="140" height="140" viewBox="0 0 140 140">
+        <svg
+          style={{ mixBlendMode: "difference" }}
+          className="cursor"
+          width="140"
+          height="140"
+          viewBox="0 0 140 140"
+        >
           <svg className="textcircle" viewBox="0 0 500 500">
             <title>Projects & client work 2020</title>
             <defs>
@@ -82,7 +88,13 @@ function App() {
               />
             </filter>
           </defs>
-          <circle class="cursor__inner" cx="70" cy="70" r="60" />
+          <circle
+            style={{ mixBlendMode: "difference" }}
+            className="cursor__inner"
+            cx="70"
+            cy="70"
+            r="60"
+          />
         </svg>
         {showHomeIcon ? (
           <div className=".btn__item hide_cursor">

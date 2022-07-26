@@ -1,7 +1,7 @@
 .question_card_container {
   cursor: pointer;
   display: none;
-  height: 70%;
+  height: 75%;
   z-index: 33;
   position: absolute;
   margin: auto;
@@ -58,14 +58,14 @@
         }
         h2 {
           font-family: "Century Gothic";
-          font-size: 4rem;
+          font-size: 2.5rem;
           color: transparent;
           -webkit-text-stroke: 3px rgb(0, 0, 0);
           z-index: 3;
         }
         .card_description {
           z-index: 3;
-          font-size: 2.5rem;
+          font-size: 1.5rem;
           font-weight: bold;
           max-width: 70%;
           font-family: "Kudryashev Headline Sans Web";
@@ -75,7 +75,7 @@
           z-index: 3;
           .card_offer {
             font-weight: bolder;
-            font-size: 1.5rem;
+            font-size: 1.1rem;
           }
           .offers {
             font-size: 1rem;

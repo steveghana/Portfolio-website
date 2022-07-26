@@ -108,11 +108,9 @@ function WhatIDo() {
               help of runtimes like Node Js. I can also implement advanced
               features like Full user authentication using tools like Jwt for
               usertokens and bcrypt for hashing user's passwords, creating
-              custom Middleware as a pipeline for strict authentication and
-              authorisation, creating RESTFUL Api's, implementing sockets for
-              real-time bidirectional open Tcp connections between client and
-              server using the socket.io library (Both client and server)
-              allowing us to create chat apps, and so much more.
+              RESTFUL Api's, implementing sockets for real-time bidirectional
+              open Tcp connections between client and server using the socket.io
+              library (Both client and server) and so much more.
             </p>
           </div>
         </div>

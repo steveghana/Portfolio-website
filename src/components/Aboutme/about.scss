@@ -1,5 +1,6 @@
 .aaabout_content {
-  margin: 2rem;
+  margin: 3rem;
+  
   color: black;
   display: flex;
   align-items: center;
@@ -18,7 +19,7 @@
 
 .aaabout_content__item {
   flex-grow: 1;
-  padding: 0 3rem 0 4rem;
+  padding: 0 2rem 0 3rem;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -26,22 +27,23 @@
   width: 100%;
   height: 100%;
   gap: 1rem;
-  h1 {
-    font-size: 6rem;
-  }
   h2 {
-    font-size: 2.5rem;
+    font-size: 3.3rem;
+  }
+  h3 {
+    font-size: 2.2rem;
     font-family: "Century Gothic";
     font-weight: 500;
   }
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: "Century Gothic";
   }
 }
 @media (max-width: 1100px) {
   .aaabout_content {
     flex-direction: column;
+    margin: 0rem;
     .about_img {
       width: 240px;
       height:240px;
@@ -49,8 +51,9 @@
     }
   }
   .aaabout_content__item {
+  padding: 1rem;
     flex-grow: 1;
-    padding: 0rem;
+    // padding: 0rem !important;
     margin: auto;
     text-align: center;
     display: flex;
@@ -59,16 +62,16 @@
     width: 100%;
     height: 100%;
     gap: 2rem;
-    h1 {
-      font-size: 4rem;
-    }
     h2 {
-      font-size: 2rem;
+      font-size: 2.5rem;
+    }
+    h3 {
+      font-size: 1.5rem;
       font-family: "Century Gothic";
       font-weight: 500;
     }
     p {
-      font-size: 1.2rem;
+      font-size: 1rem;
       font-family: "Century Gothic";
     }
   }

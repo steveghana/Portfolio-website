@@ -3,10 +3,11 @@
 }
 .whatIdo_container {
   width: 100%;
-  min-height: 100vh;
+  // min-height: 100vh;
+  gap: 2rem;
   box-shadow: 0px 0px 1rem 0px #010716;
   color: #ffffff;
-  padding: 3rem 4rem;
+  padding: 4rem 2rem;
   .hidden {
     overflow: hidden;
     width: 0;
@@ -62,7 +63,8 @@
       transition: all 1s ease-in-out;
       border-bottom: 2px solid rgb(255, 255, 255);
       overflow: hidden;
-      width: 90%;
+      width: 95%;
+      padding: 1rem;
 
       .icon_head {
         position: relative;
@@ -70,7 +72,7 @@
         align-items: flex-end;
         justify-content: space-between;
         .skill_head {
-          font-size: 5rem;
+          font-size: 3.2rem;
           font-family: "Kudryashev Headline Sans Web";
           margin-left: auto;
         }
@@ -101,7 +103,7 @@
     min-height: auto;
     .icon {
       display: block;
-      width: 2.5em;
+      width: 2em;
       height: 2.5em;
       margin: 0 auto;
       fill: currentColor;
@@ -210,11 +212,36 @@
 }
 
 @media (max-width: 400px) {
-  .whatIdo_container {
-    .skill_head {
-      font-size: 1.5rem !important;
-    }
+  .whatido_skill {
+    margin-top: auto;
+    width: 100%;
 
+    .icon_head {
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      .skill_head {
+        text-align: right;
+        font-size: 1rem !important;
+        font-family: "Kudryashev Headline Sans Web";
+      }
+    }
+    .whatido_description {
+      padding:  0rem !important;
+      font-family: "Century Gothic", sans-serif;
+      font-weight: normal;
+      font-size: .7rem;
+      margin-top: -5rem;
+      word-spacing: 4px;
+      letter-spacing: 2px;
+      transition: margin 100ms ease-in;
+    }
+    .move_up {
+      margin-top: 0rem;
+    }
+  }
+  .whatIdo_container {
     .icon {
       width: 1.5em;
       height: 1.5em;

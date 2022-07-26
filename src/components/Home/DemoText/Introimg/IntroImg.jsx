@@ -9,12 +9,18 @@ import {
   About,
 } from "../exports";
 
-import chat from "../images/favpng_communication-icon-chat-icon.png";
+import chat from "../images/favpng_communication-icon-chat-icon-min.png";
 
 import "./introimg.scss";
 function IntroImg({}) {
   return (
-    <>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+      }}
+    >
       <section
         data-scroll-section=""
         className="home_third_section_text_wrapper"
@@ -146,7 +152,11 @@ function IntroImg({}) {
           </div>
         </div>
       </footer>
-    </>
+      <div
+        data-scroll-section=""
+        style={{ height: "120px", width: "100%" }}
+      ></div>
+    </div>
   );
 }
 

@@ -7,25 +7,20 @@ function About() {
       <div className="about_img"></div>
 
       <div className="aaabout_content__item">
-        <h1>Hello am Stephen</h1>
-        <h2>
-          I'm a FullStack developer based in Ghana who loves to build amazing
-          user interfaces
-        </h2>
+        <h2>Hello am Stephen</h2>
+        <h3>I'm a developer who loves to build amazing user interfaces</h3>
         <p>
-          Tech-Enthusiast Full Stack Web Developer proficient in fundamental
-          front-end languages and server-side languages mainly HTML, CSS/Sass,
-          JAVASCRIPT(ES6), REACT/REDUX/REDUX TOOLKIT, NODEJS/EXPRESS, EJS
-          viewengine etc. A fair knowledge of, MySQL and MongoDB for Databases
-          and Docker for creating images to run instances as containers for easy
-          deployment and maintainability.
+          A passionate growth driven Web Developer proficient in fundamental
+          Front-end and Back-End languages mainly JAVASCRIPT es6 syntax,
+          CSS/Sass, REACT.JS/NEXT.JS/Material UI or THEMEUI or CHAKRAUI,
+          Typescript with advanced state Management like state machines,
+          redux(toolkit), or context API.
         </p>
         <p>
-          A curious and growth-driven character with over 4years of hands-on
-          experience taking charge of front and back-end web development.
-          Skillful creating servers and databases, designing and developing
-          Restful APIs. Hardworking collaborator who always aim for superior
-          results.
+          NODE.JS/Typescript with EXPRESS and MongoDB, MySQL, PostgreSQL for
+          building API's client server CRUD operations, using mongoose or
+          sequelize respectively, and proficient with the most popular coding
+          paradigms mainly Functional and Objected Oriented Programming.
         </p>
       </div>
     </div>

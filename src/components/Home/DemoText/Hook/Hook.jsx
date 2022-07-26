@@ -4,7 +4,7 @@ import img1 from "../images/Optimized-pexels-mikael-blomkvist-6476798.jpg";
 import img2 from "../images/Optimized-pexels-shvets-production-7203724.jpg";
 import img3 from "../images/Optimized-pexels-sora-shimazaki-5669619.jpg";
 import img4 from "../images/Optimized-pexels-fauxels-3183188.jpg";
-import img5 from "../images/pexels-karolina-grabowska-5632331.jpg";
+import img5 from "../images/pexels-karolina-grabowska-5632331-min.jpg";
 import img6 from "../images/Optimized-pexels-cottonbro-5483070 (1).jpg";
 import Swipe from "./mobileSwiper/Swiper";
 function Hook({ hookcontainer, isTablet, showinfoCard, showMobileinfoCard }) {

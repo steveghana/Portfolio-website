@@ -1,7 +1,8 @@
 import React from "react";
 import Chatapp from "./light.jpg";
-import crypto from "./pexels-pixabay-315788.jpg";
-import ark from "./pexels-mnz-1598505.jpg";
+import crypto from "./IMG4-min.png";
+import estate from "./4682ba3bc6dc4eb89240caba148bc47a.jpeg";
+import ark from "./pexels-mnz-1598505-min.jpg";
 import { ArrowRightAlt } from "@material-ui/icons";
 import "./recent.scss";
 function RecentProjects() {
@@ -12,7 +13,7 @@ function RecentProjects() {
           <div className="recentp_box">
             <div
               data-scroll=""
-              data-scroll-call="p2"
+              data-scroll-call="p1"
               id="p2"
               className="recentp_img"
             >
@@ -71,7 +72,7 @@ function RecentProjects() {
           <div className="recentp_box">
             <div
               data-scroll=""
-              data-scroll-call="p1"
+              data-scroll-call="p2"
               id="p1"
               className="recentp_img"
             >
@@ -129,19 +130,19 @@ function RecentProjects() {
             <div
               data-scroll=""
               data-scroll-call="p3"
-              id="p3"
+              id="p2"
               className="recentp_img"
             >
-              <div className="grid">
+              <div className="grid reverse">
                 <figure className="effect-apollo">
                   <img src={crypto} alt="img22" />
                   <figcaption>
                     <h2>
-                      CryptoNet <span></span>
+                      Horizon <span> the Forbidden West</span>
                     </h2>
-                    <p>Get latest Crypto news and more.</p>
+                    <p>One of my favorite games</p>
                     <a
-                      href="https://cryptotitbits.netlify.app"
+                      href="https://forbiddenwest.netlify.app"
                       rel="noreferrer"
                       target="_blank"
                     >
@@ -151,17 +152,17 @@ function RecentProjects() {
                 </figure>
                 <div className="recentp_content">
                   <div className="recentp_text">
-                    <h2>CryptoNet</h2>
+                    <h2>Horizon the Forbidden West</h2>
                     <p>
-                      A responsive wep app built with react, which shows real
-                      time data regarding crytocurrencies, news and more, all
-                      with the help of RAPID API Url Enpoints{" "}
+                      This project was built from a figma design i found on
+                      sketch-app-resources.com. This is the kind of projects
+                      which pushes your Css skills to the limit.
                     </p>
                   </div>
                   <div className="recentp_description hide_cursor">
                     <p>
                       <a
-                        href="https://cryptotitbits.netlify.app"
+                        href="https://forbiddenwest.netlify.app/"
                         rel="noreferrer"
                         target="_blank"
                       >
@@ -173,7 +174,63 @@ function RecentProjects() {
                 </div>
               </div>
               <div className="name_recentp" style={{ textAlign: "center" }}>
-                03. CryptoNet
+                {" "}
+                03. Horizon The Forbidden West
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="recentp_wrapper">
+          <div className="recentp_box">
+            <div
+              data-scroll=""
+              data-scroll-call="p4"
+              id="p3"
+              className="recentp_img"
+            >
+              <div className="grid">
+                <figure className="effect-apollo">
+                  <img src={estate} alt="img22" />
+                  <figcaption>
+                    <h2>
+                      Estate Companion <span></span>
+                    </h2>
+                    <p>A companion for shopping apartment in Dubai</p>
+                    <a
+                      href="https://estate-companion.vercel.app/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      View more
+                    </a>
+                  </figcaption>
+                </figure>
+                <div className="recentp_content">
+                  <div className="recentp_text">
+                    <h2>Estate Companion </h2>
+                    <p>
+                      A responsive wep app built with Next js, and Chakra ui,
+                      connected to a rapid Api url Endpoint showing realtime
+                      data of apartments available for buying or renting in
+                      dubai.
+                    </p>
+                  </div>
+                  <div className="recentp_description hide_cursor">
+                    <p>
+                      <a
+                        href="https://estate-companion.vercel.app/"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        visit project
+                      </a>
+                    </p>
+                    <ArrowRightAlt />
+                  </div>
+                </div>
+              </div>
+              <div className="name_recentp" style={{ textAlign: "center" }}>
+                04. Estate Companion
               </div>
             </div>
           </div>

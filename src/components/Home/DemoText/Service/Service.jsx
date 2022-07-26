@@ -9,7 +9,7 @@ function Service() {
             className="inline-block"
             data-scroll=""
             data-scroll-delay="0.15"
-            data-scroll-speed="5"
+            data-scroll-speed="3"
           >
             R
           </div>
@@ -17,7 +17,7 @@ function Service() {
             className="inline-block"
             data-scroll=""
             data-scroll-delay="0.095"
-            data-scroll-speed="5"
+            data-scroll-speed="3"
           >
             e
           </div>
@@ -25,7 +25,7 @@ function Service() {
             className="inline-block"
             data-scroll=""
             data-scroll-delay="0.085"
-            data-scroll-speed="5"
+            data-scroll-speed="3"
           >
             c
           </div>
@@ -33,7 +33,7 @@ function Service() {
             className="inline-block"
             data-scroll=""
             data-scroll-delay="0.075"
-            data-scroll-speed="5"
+            data-scroll-speed="3"
           >
             e
           </div>
@@ -41,7 +41,7 @@ function Service() {
             className="inline-block"
             data-scroll=""
             data-scroll-delay="0.065"
-            data-scroll-speed="5"
+            data-scroll-speed="3"
           >
             n
           </div>
@@ -49,7 +49,7 @@ function Service() {
             className="inline-block"
             data-scroll=""
             data-scroll-delay="0.055"
-            data-scroll-speed="5"
+            data-scroll-speed="3"
           >
             t
           </div>
@@ -57,13 +57,15 @@ function Service() {
             className="inline-block"
             data-scroll=""
             data-scroll-delay="0.045"
-            data-scroll-speed="5"
-          ></div>
+            data-scroll-speed="3"
+          >
+            {" "}
+          </div>
           <div
             className="inline-block"
             data-scroll=""
             data-scroll-delay="0.043"
-            data-scroll-speed="5"
+            data-scroll-speed="3"
           >
             p
           </div>
@@ -71,7 +73,7 @@ function Service() {
             className="inline-block"
             data-scroll=""
             data-scroll-delay="0.035"
-            data-scroll-speed="5"
+            data-scroll-speed="3"
           >
             r
           </div>
@@ -79,7 +81,7 @@ function Service() {
             className="inline-block"
             data-scroll=""
             data-scroll-delay="0.045"
-            data-scroll-speed="5"
+            data-scroll-speed="3"
           >
             o
           </div>
@@ -87,7 +89,7 @@ function Service() {
             className="inline-block"
             data-scroll=""
             data-scroll-delay="0.055"
-            data-scroll-speed="5"
+            data-scroll-speed="3"
           >
             j
           </div>
@@ -95,7 +97,7 @@ function Service() {
             className="inline-block"
             data-scroll=""
             data-scroll-delay="0.065"
-            data-scroll-speed="5"
+            data-scroll-speed="3"
           >
             e
           </div>
@@ -103,7 +105,7 @@ function Service() {
             className="inline-block"
             data-scroll=""
             data-scroll-delay="0.075"
-            data-scroll-speed="5"
+            data-scroll-speed="3"
           >
             c
           </div>
@@ -111,7 +113,7 @@ function Service() {
             className="inline-block"
             data-scroll=""
             data-scroll-delay="0.085"
-            data-scroll-speed="5"
+            data-scroll-speed="3"
           >
             t
           </div>
@@ -119,7 +121,7 @@ function Service() {
             className="inline-block"
             data-scroll=""
             data-scroll-delay="0.095"
-            data-scroll-speed="5"
+            data-scroll-speed="3"
           >
             s
           </div>
@@ -127,7 +129,7 @@ function Service() {
             className="inline-block"
             data-scroll=""
             data-scroll-delay="0.15"
-            data-scroll-speed="5"
+            data-scroll-speed="3"
           >
             .
           </div>

@@ -8,6 +8,7 @@
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 1rem;
   .chat_icon {
     width: auto;
@@ -15,16 +16,18 @@
     img {
       width: 200px;
       height: 200px;
+      margin: 0% auto;
       object-fit: contain;
     }
   }
   .letstalk_header {
-    font-size: 4rem;
+    font-size: 2rem;
     font-family: "Kudryashev Headline Sans Web";
   }
   .letstalk_text {
     font-family: "Century Gothic";
-    padding: 0% 5rem;
+    padding: 0% 2rem;
+    text-align: center;
   }
 }
 
@@ -272,16 +275,16 @@
 .lorem {
   background: #cacaca;
   width: 100%;
-  padding: 2rem;
   overflow: hidden;
+  padding: 1rem;
   height: auto;
   border-radius: 5px;
 }
 .footer_links {
   font-family: "Century Gothic";
-  height: 10vh;
+  // height: 10vh;
   color: white;
-  padding: 1rem;
+  padding:3rem 1rem;
   align-items: flex-start;
   display: flex;
   justify-content: space-between;
@@ -320,6 +323,9 @@
   .home_third_section_text_wrapper {
     margin-top: 7rem !important;
   }
+  .see-more_link{
+    font-size: 1.3rem !important;
+  }
   .letstalk_text_wrapper {
     margin-top: 6rem !important;
     flex-direction: column !important;
@@ -351,12 +357,12 @@
 }
 
 @media (max-width: 650px) {
-  .home_third_section_text_wrapper {
-    // margin-top: -10rem !important;
-  }
+
   .footer_links {
-    padding: 1rem;
     align-items: center;
+    .copyright{
+      font-size: .6rem;
+    }
     .social_links {
       display: flex;
       flex-direction: column;

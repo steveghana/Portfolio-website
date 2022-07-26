@@ -6,11 +6,11 @@
     top: 50%;
     left: 50%;
     transform: skewX(13px);
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, 100%);
     white-space: nowrap;
     div {
       display: inline-block;
-      font-size: 4rem;
+      font-size: 3rem;
     }
   }
 }
